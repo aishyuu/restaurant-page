@@ -1,4 +1,53 @@
+@font-face {
+    font-family: 'VarelaRound';
+    src: url(./assets/fonts/VarelaRound-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    font-family: 'VarelaRound', sans-serif;
+}
+
 .header {
+    padding: 2rem;
+    display: flex;
+    background-color: #F0F7EE;
+}
+
+.navbar {
+    display: flex;
+    gap: 24px;
+    margin-left: auto;
+    padding-top: 12px;
+}
+
+.containerMain {
+    background-image: url("./assets/images/pizza-background.png");
+    background-position: 30%;
+    background-size: cover;
+    height: 90vh;
+    color: white;
     text-align: center;
-    color: red;
+}
+
+.overlayMain {
+    background-color: rgba(0, 0, 0, 0.405);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.textMain {
+   font-size: 6rem;
+}
+
+.buttonMain {
+    margin-top: 2rem;
+    padding: 12px;
+    font-size: 1.5rem;
+    background-color: orange;
+    border: 0;
+    border-radius: 0.5rem;
 }
