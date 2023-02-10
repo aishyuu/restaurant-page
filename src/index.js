@@ -1,7 +1,8 @@
 import './style.css'
+import website from './website.js';
 
-function component(name) {
-    
+function component() {
+    return(website())
 }
 
-document.body.appendChild(component("Ivan"));
+document.body.appendChild(component())
