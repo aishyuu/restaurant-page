@@ -102,3 +102,7 @@
 .submitSubscribe:hover {
     background-color: rgb(201, 131, 0);
 }
+
+.active {
+    text-decoration: underline;
+}

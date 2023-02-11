@@ -8,6 +8,8 @@ module.exports = {
         website: './src/website.js',
         home: './src/components/home.js',
         footer: './src/components/footer.js',
+        menu: './src/components/menu.js',
+        about: './src/components/about.js'
     },
     output: {
         filename: '[name].bundle.js',
